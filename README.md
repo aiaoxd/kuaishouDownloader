@@ -29,9 +29,13 @@ pip install requests tqdm
 python kuaishouDownloader.py
 ```
 3. 输入关键词和下载数量
-关键词：输入你想搜索的视频关键词（例如 "舞蹈"、"搞笑视频" 等）。脚本会根据关键词在快手上搜索视频。
-下载数量：你将被提示输入想要下载的视频数量。如果直接按 回车，则默认为下载 10 个视频。
-4. 视频下载
+
+关键词：输入你想搜索的视频关键词（例如 "舞蹈"、"搞笑视频" 等）。
+脚本会根据关键词在快手上搜索视频。
+下载数量：你将被提示输入想要下载的视频数量。
+如果直接按 回车，则默认为下载 10 个视频。
+
+5. 视频下载
 脚本将开始下载视频，并为每个视频显示下载进度条。下载的视频将保存在一个以关键词命名的文件夹中。
 
 示例
@@ -39,8 +43,11 @@ python kuaishouDownloader.py
 请输入下载关键词: 舞蹈
 请输入下载数量（回车默认10个）: 5
 将下载 5 个视频。
+```bash
 Downloading Video_1.mp4: 100%|██████████| 5.0MB/5.0MB [00:02<00:00, 2.50MB/s]
 Downloaded: kuaishouVideo/dance/Video_1.mp4
 Downloading Video_2.mp4: 100%|██████████| 6.5MB/6.5MB [00:03<00:00, 2.17MB/s]
 Downloaded: kuaishouVideo/dance/Video_2.mp4
 ...
+
+```
