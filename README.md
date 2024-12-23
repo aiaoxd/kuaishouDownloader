@@ -18,7 +18,7 @@ Python 3.x 版本。
 ```bash
 pip install requests tqdm
 ```
-使用方法
+# 使用方法
 
 1. 克隆仓库或下载脚本
 你可以通过克隆仓库或者复制代码到一个 Python 文件中（例如 kuaishouDownloader.py）来下载此脚本。
@@ -41,7 +41,7 @@ python kuaishouDownloader.py
 4. 视频下载
 脚本将开始下载视频，并为每个视频显示下载进度条。下载的视频将保存在一个以关键词命名的文件夹中。
 
-示例
+# 示例
 
 请输入下载关键词: 舞蹈
 请输入下载数量（回车默认10个）: 5
